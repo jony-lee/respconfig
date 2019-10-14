@@ -10,3 +10,6 @@ sudo apt-get update
 sudo apt-get install docker-ce -y
 sudo gpasswd -a $USER docker
 newgrp docker
+
+# ssh config
+cp ./sshconfig ~/.ssh/config
